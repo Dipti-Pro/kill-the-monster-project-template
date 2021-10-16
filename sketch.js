@@ -16,11 +16,15 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  ground = new Ground(600, 600, 1200, 20);
-
-  hero = new Hero(400,800,250);
-  rope = new Rope(hero.body, { x: 500, y: 50 });
-  monster = new Monster(1100,550,300);
+  //make ground
+ 
+//make hero
+  
+  
+  //make rope
+  
+  
+  //make monster
 
   box1 = new Box(600, 200, 70, 70);
   box2 = new Box(900, 200, 70, 70);
@@ -87,9 +91,6 @@ function draw() {
   monster.display();
 
 }
-
-function mouseDragged() {
-  Matter.Body.setPosition(hero.body, { x:mouseX, y: mouseY});
-}
+//make the mousedragged function here
 
 
